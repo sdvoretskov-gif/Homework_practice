@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Задание №3*</title>
+    <link rel="stylesheet" href="HTML2\Scc Третьего задания.css">
+</head>
+<body>
+<a href="task_main.html">Вернуться к списку заданий</a>
+<p class="red" style="color:blue">Это красный текст</p><!-- внешний вид несоответствует содержимому, неверное значение атрибута style, должно быть style="color:red" -->
+<p class="green" style="color:red">Это зелёный текст</p><!-- внешний вид несоответствует содержимому, неверное значение атрибута style, должно быть style="color:green" -->
+<p class="italic">Этот текст написан курсивом</p><!-- необходимо добавить тег <i>, правильно <p class="italic"><i>Этот текст написан курсивом</i></p>-->
+<p class="bold">Это <i>полужирный</i> текст</p><!-- необходимо добавить тег <b>, правильно <p class="bold"><b>Этот текст написан курсивом</b></p>-->
+<ul>
+    <li class="green" style="color:red">Этот элемент списка зелёный</li><!-- внешний вид несоответствует содержимому, неверное значение атрибута style, должно быть style="color:green" -->
+    <ol>
+        <li class="red" style="color:blue">Этот элемент подсписка красный</li><!-- внешний вид несоответствует содержимому, неверное значение атрибута style, должно быть style="color:red" -->
+        <li class="blue">Этот элемент подсписка синий</li><!-- в селекторе ul ol li.blue неверное значение свойства color, должно быть ul ol li.blue {color:blue;} -->
+    </ol>
+</ul>
+</body>
+</html>
